@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:background="@drawable/border" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"         android:baselineAligned="false"
+            android:divider="@drawable/abc_list_selector_disabled_holo_light"
+            android:visibility="visible"
+            android:measureWithLargestChild="true"
+            android:showDividers="beginning">
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/admin"
+                    android:layout_marginBottom="2dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="20dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dip"
+                    android:text="Administrator"
+                    android:typeface="serif"
+                    android:ellipsize="start"
+                    android:focusableInTouchMode="true"
+                    android:textIsSelectable="false"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"
+        style="@style/Theme.Base.AppCompat.Light"
+        android:layout_marginBottom="5dip"
+        android:layout_gravity="bottom"
+        android:divider="@drawable/abc_ab_transparent_light_holo"
+        android:focusable="false"
+        android:visibility="visible"
+        android:paddingBottom="3dip"
+        android:layoutMode="clipBounds"
+        android:layout_marginTop="5dip"
+        android:dividerPadding="3dip"
+        android:focusableInTouchMode="true"
+        android:measureWithLargestChild="false">
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent"
+            android:alpha="4"
+            android:divider="@drawable/abc_spinner_ab_pressed_holo_dark">
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/asociatii"/>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Asociatii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace"
+                    android:visibility="visible"
+                    android:textColorHint="@color/abc_search_url_text_normal"
+                    style="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/noutate"/>
+
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Noutati"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"
+        android:baselineAligned="false"
+        android:divider="@drawable/abc_list_selector_disabled_holo_light"
+        android:visibility="visible"
+        android:measureWithLargestChild="true"
+        android:showDividers="beginning"
+        android:dividerPadding="2dip"
+        android:background="@drawable/border">
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/locatar1"
+                    android:layout_marginBottom="2dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:alpha="4"
+                    android:divider="@drawable/abc_spinner_ab_pressed_holo_dark"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    android:id="@+id/linearLayout">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="left"
+                            android:src="@drawable/asociatii" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent" >
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textSize="14dip"
+                            android:gravity="center_vertical|left"
+                            android:textColor="#3399FF"
+                            android:layout_marginTop="5dip"
+                            android:text="Asociatii"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                            android:typeface="monospace" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="left"
+                            android:src="@drawable/noutate" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:layout_height="fill_parent"
+                        android:layout_width="fill_parent" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textSize="14dip"
+                            android:gravity="center_vertical|left"
+                            android:textColor="#3399FF"
+                            android:layout_marginTop="5dip"
+                            android:text="Noutati"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                            android:typeface="monospace" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="20dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dip"
+                    android:text="Locatar"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="serif"
+                    android:textStyle="italic"
+                    android:textIsSelectable="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal"
+        android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/noutate"/>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Noutati"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace"
+                    android:editable="false"
+                    android:focusable="false" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/tichete"/>
+
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Tichete"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/contoare"/>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Contoare"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/locuinte"/>
+
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Locuinte"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"
+        android:baselineAligned="false"
+        android:divider="@drawable/abc_list_selector_disabled_holo_light"
+        android:visibility="visible"
+        android:measureWithLargestChild="true"
+        android:showDividers="beginning"
+        android:background="@drawable/border">
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent"
+            android:showDividers="beginning">
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/userprofil"
+                    android:layout_marginBottom="2dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="20dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dip"
+                    android:text="Profil"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="serif"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/profile"/>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Modifica profil"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/help"/>
+
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Ajutor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/contact_admin"/>
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="13dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Contact admin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/goback"/>
+
+            </LinearLayout>
+            <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <TextView
+                    android:id="@+id/ghost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="14dip"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#3399FF"
+                    android:layout_marginTop="5dip"
+                    android:text="Inapoi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

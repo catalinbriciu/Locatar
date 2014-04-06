@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background ="@drawable/background">
+    <LinearLayout android:layout_weight="1.175" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"         android:baselineAligned="false"
+            android:divider="@drawable/abc_list_selector_disabled_holo_light"
+            android:visibility="visible"
+            android:measureWithLargestChild="true"
+            android:showDividers="beginning">
+            <LinearLayout android:layout_weight="3.4" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+            </LinearLayout>
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/admin_1_1"
+                    android:layout_marginBottom="2dip"
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_weight="1.245" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+    </LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"         android:baselineAligned="false"
+            android:divider="@drawable/abc_list_selector_disabled_holo_light"
+            android:visibility="visible"
+            android:measureWithLargestChild="true"
+            android:showDividers="beginning">
+            <LinearLayout android:layout_weight="3.4" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+            </LinearLayout>
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/locatari"
+                    android:layout_marginBottom="2dip"
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout> <LinearLayout android:layout_weight="1.245" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+</LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"         android:baselineAligned="false"
+            android:divider="@drawable/abc_list_selector_disabled_holo_light"
+            android:visibility="visible"
+            android:measureWithLargestChild="true"
+            android:showDividers="beginning">
+            <LinearLayout android:layout_weight="3.4" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+            </LinearLayout>
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/profile"
+                    android:layout_marginBottom="2dip"
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout> <LinearLayout android:layout_weight="1.245" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+</LinearLayout>
+    <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:background="#00FFFFFF" android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+        <LinearLayout android:layout_weight="1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent"         android:baselineAligned="false"
+            android:divider="@drawable/abc_list_selector_disabled_holo_light"
+            android:visibility="visible"
+            android:measureWithLargestChild="true"
+            android:showDividers="beginning">
+            <LinearLayout android:layout_weight="5.1" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/logout"
+                    android:layout_marginBottom="2dip"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="3" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/help_icon"
+                    android:layout_marginBottom="2dip"
+                    android:layout_weight="3" />
+            </LinearLayout>
+            <LinearLayout android:layout_weight="5" android:orientation="horizontal" android:layout_height="fill_parent"  android:layout_width="fill_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="left"
+                    android:src="@drawable/logout"
+                    android:layout_marginBottom="2dip"
+                    android:layout_weight="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

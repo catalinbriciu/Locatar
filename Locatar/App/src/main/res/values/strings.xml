@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Locatar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Login Screen</string>
+    <string name="username">E-mail:</string>
+    <string name="password">Parola:</string>
+    <string name="Login">Autentificare</string>
+    <string name="Inregistrare">Inregistrare</string>
+    <string name="inregmessage">nu aveti cont? incercati aici</string>
+    <string name="auten_message">Campurile marcate cu rosu sunt obligatorii</string>
+</resources>
